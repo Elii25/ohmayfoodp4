@@ -1,0 +1,23 @@
+.reserv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+
+    .title-reserv{
+        padding: 39px 58px 9px 42px;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: -40px;
+    }
+
+    .subtittle{
+        padding: 0px 26px 0px 35px;
+        text-align: center;
+        font-size: 25px;
+        position: relative;
+        top: -60px;
+    }
+}

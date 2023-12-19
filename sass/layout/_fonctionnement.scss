@@ -1,0 +1,15 @@
+.fonctionnement-section{
+    padding: 48px 20px 68px 20px;
+
+    .fonct-card{
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;
+        gap: 25px;
+    }
+
+    .card-article{
+        background-color: #f6f6f6;
+        border-radius: 20px;
+    }
+}

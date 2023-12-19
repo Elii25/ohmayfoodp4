@@ -1,3 +1,70 @@
-h1 {
-  padding: 0;
+.header-active {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.header-active .header-logo {
+  padding: 0px 19px 0px 16px;
+}
+
+.header-seconder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+  width: 100%;
+  background-color: #eaeaea;
+}
+
+.reserv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f6f6;
+}
+.reserv .title-reserv {
+  padding: 39px 58px 9px 42px;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  top: -40px;
+}
+.reserv .subtittle {
+  padding: 0px 26px 0px 35px;
+  text-align: center;
+  font-size: 25px;
+  position: relative;
+  top: -60px;
+}
+
+.btn {
+  border-radius: 25px;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  background: #9456DC;
+  box-shadow: 0 2PX 4PX rgba(0, 0, 0, 0.15);
+  margin: 27px 75px 57px 82px;
+  padding: 20px;
+  position: relative;
+  top: -40px;
+}
+
+.fonctionnement-section {
+  padding: 48px 20px 68px 20px;
+}
+.fonctionnement-section .fonct-card {
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+  gap: 25px;
+}
+.fonctionnement-section .card-article {
+  background-color: #f6f6f6;
+  border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+.header-active{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    .header-logo{
+        padding: 0px 19px 0px 16px;
+    }
+}
+
+.header-seconder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    width: 100%;
+    background-color: #eaeaea;
+}

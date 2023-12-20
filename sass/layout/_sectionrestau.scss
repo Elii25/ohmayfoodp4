@@ -1,0 +1,26 @@
+.restaurants{
+    padding: 30px 18px 0 17px;
+    background-color: #f6f6f6;
+
+    .restaurant-card{
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        padding: 54px 0 66px 0;
+    }
+
+    .card{
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+        width: 100%;
+        position: relative;
+    }
+
+    .restaurant-card img{
+        object-fit: cover;
+        height: 251px;
+        border-radius: 15px 15px 0 0;
+        width: 100%;
+    }
+}

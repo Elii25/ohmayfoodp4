@@ -23,4 +23,14 @@
         border-radius: 15px 15px 0 0;
         width: 100%;
     }
+
+    .cart-content h3{
+        border: none;
+    }
+
+    .card-like i{
+        display: flex;
+        justify-content: flex-end;
+        font-size: 30px;
+    }
 }

@@ -17,16 +17,25 @@
         gap: 24px;
         position: relative;
         box-sizing: border-box;
-        padding: 25px;
+        padding: 20px;
+    }
+
+    .chiffre{
+        font-size: 14px;
+        font-weight: 500;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        left: -12px;
+        border-radius: 50px;
+        background-color: #9456DC;
     }
 
     
 }
 
-.card-num{
-    width: 24px;
-    height: 24px;
-    border-radius: 50px;
-    background-color: #9456DC;
 
-}

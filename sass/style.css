@@ -55,6 +55,8 @@
   padding: 20px;
   position: relative;
   top: -40px;
+  border: none;
+  cursor: pointer;
 }
 
 .fonctionnement-section {
@@ -75,12 +77,19 @@
   gap: 24px;
   position: relative;
   box-sizing: border-box;
-  padding: 25px;
+  padding: 20px;
 }
-
-.card-num {
-  width: 24px;
-  height: 24px;
+.fonctionnement-section .chiffre {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: -12px;
   border-radius: 50px;
   background-color: #9456DC;
 }
@@ -109,17 +118,27 @@
   border-radius: 15px 15px 0 0;
   width: 100%;
 }
+.restaurants .cart-content h3 {
+  border: none;
+}
+.restaurants .card-like i {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 30px;
+}
 
 .footer-active {
   display: flex;
   flex-direction: column;
   background-color: #353535;
   padding: 22px 25px;
-  color: white;
+  gap: 16px;
+  align-items: flex-start;
 }
 .footer-active .footer-logo {
   font-weight: 400;
   font-size: 18px;
+  color: white;
 }
 .footer-active .footer-nav {
   display: flex;
@@ -127,13 +146,28 @@
   gap: 8px;
   font-size: 17px;
   font-weight: 300;
+  list-style-type: none;
+  transform: translateX(-40px);
 }
 .footer-active .footer-nav-gros {
   display: flex;
   justify-content: flex-start;
   gap: 11px;
   font-weight: 500;
+  list-style-type: none;
+  color: white;
+}
+.footer-active .footer-nav-gros a {
   text-decoration: none;
+  color: white;
+}
+.footer-active .Mentions a {
+  text-decoration: none;
+  color: white;
+}
+.footer-active .Contact a {
+  text-decoration: none;
+  color: white;
 }
 
 body {
@@ -145,6 +179,7 @@ h1 {
 }
 
 h2 {
+  font-size: 16px;
   font-weight: 500;
 }
 

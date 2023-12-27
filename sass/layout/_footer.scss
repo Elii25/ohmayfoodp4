@@ -5,11 +5,13 @@
     flex-direction: column;
     background-color: #353535;
     padding: 22px 25px;
-    color: white;
+    gap: 16px;
+    align-items: flex-start;
 
     .footer-logo{
         font-weight: 400;
         font-size: 18px;
+        color: white;
     }
     
     .footer-nav{
@@ -18,7 +20,8 @@
         gap: 8px;
         font-size: 17px;
         font-weight: 300;
-    
+        list-style-type: none;
+        transform: translateX(-40px);
         
     }
 
@@ -27,8 +30,25 @@
         justify-content: flex-start;
         gap: 11px;
         font-weight: 500;
-        text-decoration: none;
+        list-style-type: none;
+        color: white;
     }
-        
+    
+    .footer-nav-gros a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .Mentions a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .Contact a {
+        text-decoration: none;
+        color: white;
+    }
+
+    
 }
 

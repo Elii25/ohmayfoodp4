@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     background-color: #353535;
-    padding: 22px 25px;
+    padding: 20px 20px;
     gap: 16px;
     align-items: flex-start;
 
@@ -32,21 +32,34 @@
         font-weight: 500;
         list-style-type: none;
         color: white;
+        transform: translateY(-30px);
     }
     
     .footer-nav-gros a{
         text-decoration: none;
         color: white;
+      
+
     }
 
     .Mentions a{
         text-decoration: none;
         color: white;
+       
     }
 
     .Contact a {
         text-decoration: none;
         color: white;
+        
+    }
+
+    .Mentions{
+        transform: translateY(-30px);
+    }
+
+    .Contact{
+        transform: translateY(-30px); 
     }
 
     

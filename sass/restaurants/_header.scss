@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+    .header_arrow{
+        position: absolute;
+        left: 10px;
+    }
+
+    .logo-header{
+        padding: 14px 19px 14px 16px;
+    }
+}

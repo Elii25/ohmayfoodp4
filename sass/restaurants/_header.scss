@@ -13,6 +13,22 @@
     }
 
     .logo-header{
-        padding: 14px 19px 14px 16px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .header a{
+        color: #363636;
+        width: 60px;
+        height: 50%;
+    }
+
+    .header a i{
+        font-size: 1.8rem;
+        margin: auto;
+    }
+
+    .fa-solid{
+        font-weight: 900;
     }
 }

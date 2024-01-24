@@ -2,8 +2,12 @@
     background-color: #fff;
     margin-top: 15px;
     display: flex;
+    flex-direction: row;
+    align-items: flex-end;
     justify-content: space-between;
     border-radius: 1rem;
     padding: 0;
     overflow: hidden;
+    height: 90px;
+
 }

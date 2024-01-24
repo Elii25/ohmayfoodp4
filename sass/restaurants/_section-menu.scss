@@ -11,7 +11,36 @@
     }
 
     .menu_title{
-        font-size: 28px;
-        font-weight: 400;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .plat-column{
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+        padding: 0;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .prix-plat{
+        color: #363636;
+        font-size: 15px;
+        font-weight: 700;
+        padding: 0 15px 15px 0;
+    }
+
+    .animation-icon{
+        width: 75px;
+        background-color: #99E2D0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 4em;
+        margin-right: -4em;
+        border-radius: 0 15px 15px 0;
+        transition: 700ms ease;
     }
 }

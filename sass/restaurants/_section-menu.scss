@@ -16,12 +16,8 @@
     }
 
     .plat-column{
-        display: flex;
-        flex-direction: column;
-        flex: 2;
-        padding: 0;
-        overflow: hidden;
-        white-space: nowrap;
+        padding: 15px;
+        flex: 1 0 0;
     }
 
     .prix-plat{
@@ -29,18 +25,27 @@
         font-size: 15px;
         font-weight: 700;
         padding: 0 15px 15px 0;
+        align-self: flex-end;
     }
 
     .animation-icon{
-        width: 75px;
+        width: 0;
         background-color: #99E2D0;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100%;
-        width: 4em;
-        margin-right: -4em;
         border-radius: 0 15px 15px 0;
         transition: 700ms ease;
+        overflow: hidden;
+    }
+
+    .title-plat{
+        margin: 0;
+    }
+
+    .subtittle-plat{
+        margin: 0;
+        font-weight: normal;
     }
 }

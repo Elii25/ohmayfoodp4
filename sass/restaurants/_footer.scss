@@ -5,4 +5,53 @@
     padding: 20px 20px;
     gap: 16px;
     align-items: flex-start;
+
+    .footer-logo{
+        font-weight: 400;
+        font-size: 18px;
+        color: white;
+    }
+
+    .footer-nav{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        font-size: 17px;
+        font-weight: 300;
+        list-style-type: none;
+        transform: translateX(-40px);
+    }
+
+    .footer-nav-gros{
+        display: flex;
+        justify-content: flex-start;
+        gap: 11px;
+        font-weight: 500;
+        list-style-type: none;
+        color: white;
+        transform: translateY(-30px);
+    }
+
+    .footer-nav-gros a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .Mentions a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .Contact a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .Mentions{
+        transform: translateY(-30px);
+    }
+
+    .Contact{
+        transform: translateY(-30px);
+    }
 }

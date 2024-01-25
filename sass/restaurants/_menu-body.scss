@@ -3,11 +3,16 @@
     margin-top: 15px;
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
     border-radius: 1rem;
     padding: 0;
     overflow: hidden;
     height: 90px;
+    &:hover{
+        .animation-icon{
+            width: 75px;
+        }
+    }
 
 }

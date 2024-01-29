@@ -13,6 +13,16 @@
     .menu_title{
         font-size: 18px;
         font-weight: 500;
+        color: black;
+        font-size: 28px;
+        font-family: 'shrikhand';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .like{
+        font-size: 22px;
     }
 
     .plat-column{
@@ -26,6 +36,9 @@
         font-weight: 700;
         padding: 0 15px 15px 0;
         align-self: flex-end;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
 
     .animation-icon{
@@ -47,5 +60,23 @@
     .subtittle-plat{
         margin: 0;
         font-weight: normal;
+        font-style: normal;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .btn-menu{
+        border-radius: 25px;
+        color: white;
+        border: none;
+        font-size: 16px;
+        font-weight: 600;
+        background: linear-gradient(#9456DC 0%, #FF79DA);
+        width: 186px;
+        height: 50px;
+        flex-shrink: 0;
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+        margin-top: 35px;
     }
 }

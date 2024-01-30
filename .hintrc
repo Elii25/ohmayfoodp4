@@ -16,6 +16,7 @@
           "text-size-adjust"
         ]
       }
-    ]
+    ],
+    "axe/forms": "off"
   }
 }

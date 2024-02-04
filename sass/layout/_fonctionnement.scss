@@ -1,11 +1,30 @@
 .fonctionnement-section{
     padding: 48px 20px 68px 20px;
 
+    @include breakpoint(desktop) {
+        display: flex;
+         padding: 48px 180px 68px 180px;
+         flex-direction: column;
+         align-content: center;
+         gap: 25px;
+         flex-wrap: wrap;
+         text-align: left;
+      }
+
     .fonct-card{
         display: flex;
         flex-direction: column;
         padding-top: 25px;
         gap: 25px;
+
+        @include breakpoint(desktop) {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-between;
+            width: 100%;
+            padding-left: 12px;
+          }
     }
 
     .fonctionnement{
@@ -19,6 +38,13 @@
         box-sizing: border-box;
         padding: 20px 20px;
         border: none;
+
+        @include breakpoint(desktop) {
+            height: 72.379px;
+            flex-shrink: 0;
+            border-radius: 20px;
+            background: #f6f6f6;
+          }
     }
 
     .chiffre{

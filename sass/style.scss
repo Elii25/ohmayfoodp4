@@ -1,4 +1,5 @@
 @import "abstracts/variable";
+@import "abstracts/mixins";
 @import "components/header";
 @import "layout/resevesec";
 @import "components/bouton";
@@ -8,7 +9,6 @@
 @import "base/typo";
 @import "restaurants/header";
 @import "restaurants/image";
-@import "abstracts/mixins";
 @import "restaurants/section-menu";
 @import "restaurants/menu-body";
 @import "restaurants/footer";

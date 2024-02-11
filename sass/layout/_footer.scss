@@ -9,11 +9,9 @@
     align-items: flex-start;
 
     @include breakpoint(desktop) {
-        display: flex;
         padding: 30px 25px;
         justify-content: flex-end;
         align-items: flex-end;
-        gap: 16px;
         flex-shrink: 0;
         background: #353535;
     

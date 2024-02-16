@@ -4,6 +4,14 @@
     border-radius: 2rem 2rem 0 0;
     transform: translateY(-30px);
 
+    @include breakpoint(desktop) {
+        padding: 50px 150px;
+        gap: 40px;
+        margin: -50px 192px 0 193px;
+        display: flex;
+        flex-direction: column;
+      }
+
     .menu_header{
         display: flex;
         flex-direction: row;

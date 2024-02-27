@@ -6,6 +6,14 @@
     gap: 16px;
     align-items: flex-start;
 
+    @include breakpoint(desktop) {
+        padding: 50px 25px 20px 0;
+        justify-content: flex-start;
+        background: #353535;
+        flex-direction: row-reverse;
+        align-items: center;
+      }
+
     .footer-logo{
         font-weight: 400;
         font-size: 18px;
@@ -20,6 +28,15 @@
         font-weight: 300;
         list-style-type: none;
         transform: translateX(-40px);
+
+        @include breakpoint(desktop) {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            flex-direction: row;
+            font-size: 16px;
+            font-weight: 300;
+          }
     }
 
     .footer-nav-gros{
@@ -30,11 +47,26 @@
         list-style-type: none;
         color: white;
         transform: translateY(-30px);
+
+        @include breakpoint(desktop) {
+            display: flex;
+            align-items: flex-start;
+            gap: 11px;
+            transform: none;
+          }
     }
 
     .footer-nav-gros a{
         text-decoration: none;
         color: white;
+
+        @include breakpoint(desktop) {
+            font-size: 1.1rem;
+            line-height: 1.8rem;
+            color: #fff;
+            text-decoration: none;
+            list-style: none;
+          }
     }
 
     .Mentions a{
@@ -49,9 +81,15 @@
 
     .Mentions{
         transform: translateY(-30px);
+        @include breakpoint(desktop) {
+            transform: none;
+          }
     }
 
     .Contact{
         transform: translateY(-30px);
+        @include breakpoint(desktop) {
+            transform: none;
+          }
     }
 }

@@ -17,3 +17,12 @@
     display: inline-block;
     box-sizing: border-box;
 }
+.btn:hover{
+    background-color: $secondary-color;
+    border-radius: 25px;
+}
+
+.btn:active{
+    background-color: $secondary-color;
+    border-radius: 25px;
+}

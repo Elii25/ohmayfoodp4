@@ -16,10 +16,13 @@
     transform: scale(1);
     display: inline-block;
     box-sizing: border-box;
+    transition: all 0.3s;
+    opacity: 1;
 }
 .btn:hover{
     background-color: $secondary-color;
-    border-radius: 25px;
+    box-shadow: 6px 6px 8px rgba(0,0,0,0.5);
+    opacity: 0.75;
 }
 
 .btn:active{
